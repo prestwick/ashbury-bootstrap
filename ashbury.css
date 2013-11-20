@@ -10,6 +10,7 @@ body {
 .navbar-brand {
 	color: #e5e5e5;
 	padding: 0px 0px 0px 20px;
+	width: 200px;
 }
 
 .navbar-header {
@@ -18,9 +19,15 @@ body {
 
 .navbar-img {
 	/*float: right;*/
-	width: 50%;
+	width: 100%;
 	height: auto;
 	margin: 5px;
+}
+
+.ash-navbar {
+	margin-top: 5px;
+	font-family: Lato,sans-serif;
+	color: #979797;
 }
 
 .jumbotron {
