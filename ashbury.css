@@ -61,6 +61,10 @@ body {
 	margin: 10px 0 10px 0;
 }
 
+.jumbo-content {
+	text-align: center;
+	padding: 0px 0px;
+}
 
 .lead {
 	color: #f2f1fa;
@@ -214,7 +218,3 @@ footer {
 	font-size: 24px;
 }
 
-.jumbo-content {
-	text-align: center;
-	padding: 0px 0px;
-}
