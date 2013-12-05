@@ -93,6 +93,16 @@ p.detail {
 	font-size: 16px;
 }
 
+p a {
+  color: #988ad7;
+}
+
+p a:hover {
+  color: #3c2d84;
+  text-decoration: none;
+}
+
+
 ul {	
 	font-family: Lato,sans-serif;
 	color: #979797;
@@ -118,6 +128,12 @@ h2 {
 
 h4 {
 	color: #979797;
+	font-size: 16px;
+}
+
+h5 {
+	color: #979797;
+	font-size: 12px;
 }
 
 .page-header {
@@ -167,6 +183,8 @@ footer {
 	padding: 48px;
 	width: auto;
 	margin: 0px;
+	text-align: center;
+	font-family: Lato,sans-serif;
 		/* IE10 Consumer Preview */ 
 	background-image: -ms-linear-gradient(bottom, #585858 0%, #000000 200%);
 
@@ -184,6 +202,16 @@ footer {
 
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to top, #585858 0%, #000000 200%);
+}
+
+footer a {
+  color: inherit;
+  font-family: inherit;
+}
+footer a:hover {
+  color: #E5E5E5;
+  text-decoration: none;
+  
 }
 
 .feature {
@@ -213,6 +241,14 @@ footer {
 
 .btn-lg {
 	font-size: 24px;
+}
+
+
+/* id code */
+
+#beta-signup-btn {
+  margin-bottom: 20px;
+  
 }
 
 

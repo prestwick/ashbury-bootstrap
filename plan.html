@@ -13,31 +13,13 @@
 		<!-- Bootstrap core CSS -->
 		<link href="dist/css/bootstrap.css" rel="stylesheet">
 
-		<!-- Custom styles for this template -->
+		<!-- Custom styles and js for this template -->
 		<link href="ashbury.css" rel="stylesheet">
+		<script src="ashbury.js"></script>
 	</head>
   
 	<body>
-		<!-- Static navbar -->
-		<div class="navbar navbar-default navbar-static-top" role="navigation">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#"><img class="navbar-img" src="docs-assets/ico/ashbury-logo-navbar-narrow-288px.png"/></a>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ash-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse" id="ash-navbar-collapse">
-				<ul class="nav navbar-nav navbar-right ash-navbar">
-					<li><a href="index.html">Parent Cloud</a></li>
-					<li><a href="mission.html">Mission</a></li>
-					<li><a href="privacy.html">Privacy Policy</a></li>
-				</ul>
-			</div>
-		</div>
-
+		<script>ashdoc.writenavbar();</script>
 		
 		<div class=container>
 			<div class="page-header">
@@ -76,23 +58,19 @@
 		<div class="contain-c">
 			<h2>Team</h2>
 			<p class="detail">The co-founding CEO and CTO are lifelong friends, attended Rensselaer Polytechnic Institute together, and are accomplished software engineers at top companies in San Francisco, CA. They have a combined 20 years of experience implementing systems for enterprise, government and public cloud customers.</p>
-			<p class="detail">They also have this friend.  He's really fucking great.</p>
 		</div>
 		<div class="contain-b">
 			<h2>Financials</h2>
 			<p class="detail"><a href"mailto:investors@ashburymdm.com>investors@ashburymdm.com</a></p>
 		</div>
 		
-		<footer>
-			<p><h4>© 2013 Ashbury Mobile Device Management, Inc</h4></p>
-		</footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+		<script>ashdoc.writefooter();</script>
+	
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="dist/js/bootstrap.min.js"></script>
 		
 	</body>
   
